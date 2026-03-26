@@ -1,0 +1,5 @@
+## Evolución de la natalidad en Chile (1992-2024): Caída de nacimientos y transformación de los patrones reproductivos
+
+Este proyecto analiza la evolución de la natalidad en Chile entre 1992 y 2024, considerando no solo la disminución sostenida de nacimientos, sino también cambios en los patrones reproductivos. En particular, examinan la postergación de la maternidad hacia edades mayores y la significativa reducción de la fecundidad adolescente. 
+
+A partir de datos del Instituto Nacional de Estadísticas (INE), se construyen visualizaciones que permiten observar estas transformaciones en el tiempo, incorporando además dimensiones como el territorio y la nacionalidad de la madre. El objetivo es favorecer una comprensión más completa del fenómeno, mostrando que la baja en la natalidad responde a cambios estructurales en la forma en que se reproduce la población en Chile.
