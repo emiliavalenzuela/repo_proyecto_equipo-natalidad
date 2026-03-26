@@ -13,7 +13,7 @@ Una primera idea es desarrollar una visualización de tipo línea temporal que m
 Una segunda idea es construir una visualización comparativa por grupos etarios de la madre, utilizando múltiples líneas para evidenciar el desplazamiento de la fecundidad hacia edades mayores. Esto permitiría mostrar de forma clara que el fenómeno no solo implica menos nacimientos, sino también un cambio en la edad en que se concentran.
 
 *Arquetipo de historia*
- 
+
 Considero que este proyecto se ajusta principalmente al arquetipo de observación. Esto se debe a que la investigación busca analizar cómo cambia la natalidad en Chile a lo largo del tiempo, identificando patrones, tendencias y variaciones en distintas dimensiones, como la edad de la madre, el territorio y la nacionalidad.
 Según este arquetipo, la pregunta central es “¿qué hace este sistema cuando observamos en el tiempo o espacio?”, lo que se relaciona directamente con el enfoque del proyecto. A través de los datos, se registran cambios sostenidos, como la disminución de nacimientos, la caída de la fecundidad adolescente y el desplazamiento hacia maternidades más tardías.
 Además, el proyecto también tiene elementos del arquetipo de caracterización, ya que no solo observa cambios, sino que describe cómo es actualmente el fenómeno de la natalidad en Chile, identificando rasgos y comportamientos específicos. Por ejemplo, permite entender quiénes están teniendo hijos hoy, en qué edades y en qué contextos territoriales.
