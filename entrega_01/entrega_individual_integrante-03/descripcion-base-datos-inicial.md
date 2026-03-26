@@ -12,10 +12,9 @@
 
 
  **Links de fuentes:** 
+
 estadísticas-vitales-cifras-provisionales-2024.pdf 
-
 anuario-de-estadísticas-vitales-2022-síntesis.pdf 
-
 PPTCorporativaINE2021 (versión 2)  
 
  
