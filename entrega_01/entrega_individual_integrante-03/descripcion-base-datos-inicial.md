@@ -11,14 +11,12 @@
 **Metodología:** La base será construida mediante inscripción manual de datos de anuarios, síntesis y presentaciones del INE. Como la información está dispersa en distintos documentos, nosotras la sistematizaremos en un solo archivo, para después poder analizarla.  
 
 
- Links de fuentes: 
-
+ **Links de fuentes:** 
 estadísticas-vitales-cifras-provisionales-2024.pdf 
 
 anuario-de-estadísticas-vitales-2022-síntesis.pdf 
 
-
-PPTCorporativaINE2021 (versión 2) 
+PPTCorporativaINE2021 (versión 2)  
 
  
 
