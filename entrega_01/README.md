@@ -116,15 +116,12 @@ De esta manera, la historia no solo muestra que la natalidad ha disminuido, sino
 
 Para contar esta historia de forma clara, nos gustaría usar primero un gráfico de líneas que muestre la evolución de los nacimientos en Chile entre 1992 y 2024. Este recurso permitiría ver de manera inmediata la caída de la natalidad y detectar momentos de cambio o quiebre en la serie. Como referencia visual, nos queremos inspirar en el tipo de grafico de fertilidad usado por Our World in Data. 
 
+![alt text](image-1.png)
  
-
  
+También nos gustaría incorporar un gráfico comparativo por edad de la madre, idealmente con varias líneas para mostrar el desplazamiento de la fecundidad desde el grupo de 25 a 29 años hacia el de 30 a 34 años, además de la caída de fecundidad adolescente. Este formato ayudaría a mostrar que la historia no es solo que nacen menos niños, sino que también cambió la edad en que concentra la maternidad. Como referencia de formato, puede considerarse un gráfico multiserie que permita comparar.  
 
- 
-
-También nos gustaría incorporar un gráfico comparativo por edad de la madre, idealmente con varias líneas para mostrar el desplazamiento de la fecundidad desde el grupo de 25 a 29 años hacia el de 30 a 34 años, además de la caída de fecundidad adolescente. Este formato ayudaría a mostrar que la historia no es solo que nacen menos niños, sino que también cambió la edad en que concentra la maternidad. Como referencia de formato, puede considerarse un gráfico multiserie que permita compara.  
-
- 
+ ![alt text](image-2.png)
 
  
 
