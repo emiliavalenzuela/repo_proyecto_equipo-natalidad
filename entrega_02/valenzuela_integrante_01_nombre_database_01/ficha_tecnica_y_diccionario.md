@@ -3,9 +3,9 @@
 
 **Ficha técnica:**
 
-La base de datos fue construida a partir de fuentes oficiales y confiables. El número de nacidos vivos y la tasa bruta de natalidad fueron obtenidos desde el Instituto Nacional de Estadísticas (INE), específicamente de los anuarios de estadísticas vitales. 
+La base de datos fue construida a partir de fuentes oficiales y confiables. El número de nacidos vivos fue obtenida desde el Instituto Nacional de Estadísticas (INE), específicamente de los anuarios de estadísticas vitales. 
 
-Por otra parte, la tasa global de fecundidad fue obtenida desde el Banco Mundial, que sistematiza información proveniente de registros nacionales. 
+Por otra parte, la tasa global de fecundidad y la tasa de natalidad bruta, fueron obtenidas desde el Banco Mundial, que sistematiza información proveniente de registros nacionales. 
 
 **Metodología de construcción de bases:**
 
