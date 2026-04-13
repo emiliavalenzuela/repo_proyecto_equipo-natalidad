@@ -28,5 +28,5 @@ Por esto, fueron incluidos de manera parcial.
 **Diccionario de datos:**
 
 
-![alt text](image.png)
+![alt text](image-1.png)
 
