@@ -26,5 +26,7 @@ Por esto, fueron incluidos de manera parcial.
 
 
 **Diccionario de datos:**
+
+
 ![alt text](image.png)
 
