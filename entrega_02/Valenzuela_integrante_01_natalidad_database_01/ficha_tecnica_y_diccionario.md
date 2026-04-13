@@ -30,7 +30,7 @@ Se trata de datos cuantitativos de carácter anual, que combinan valores enteros
 La base es consistente y adecuada para identificar tendencias generales de la natalidad en Chile. Si bien se sacan de fuentes distintas (INE y Banco Mundial), ambas son fuentes confiables.  
 
 **Diccionario de datos:** 
-
+![alt text](image.png)
 
 
 
