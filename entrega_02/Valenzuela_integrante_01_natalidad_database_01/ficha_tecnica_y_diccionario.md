@@ -1,5 +1,5 @@
 
-## ** Ficha técnica y diccionario**
+## Ficha técnica y diccionario
 
 **Ficha técnica:**
 
@@ -32,7 +32,7 @@ La base es consistente y adecuada para identificar tendencias generales de la na
 Para la tasa bruta de natalidad y la tasa global de fecunidad del año 2024, utlicé el documento del INE de estadísticas vitales, esto debido a que como era el año más cercano a la actualidad, preferí revisar directamente en el Instituto Nacional de Estadísticas. 
 
 **Diccionario de datos:** 
-![alt text](image.png)
+![alt text](image-2.png)
 
 
 
