@@ -21,9 +21,10 @@ También decidí construir una base simplificada, incluyendo las variables neces
 
 Otra decisión fue utilizar el Banco Central como fuente para las tasas, debido a lo accesible que era encontrar y filtrar por país y por año, lo que permitió obtener una serie completa sin necesidad de reconstruir manualmente los datos desde múltiples documentos.  
 
-Como observación, para las tasas del año 2024, decidí revisar los datos directamente desde el PDF del INE de estadísticas vitales de ese año, esto por ser el dato más cercano a la actualidad. 
-
+ 
 Además, durante el proceso tomé la decisión de estandarizar los valores numéricos, específicamente en el caso de las tasas. Opté por trabajar con dos decimales en todas las variables correspondientes a la tasa de fecundidad global, con el fin de mantener consistencia en la base y facilitar la lectura. Para esto, realicé un proceso de aproximación, en el cual los valores fueron redondeados al segundo decimal: cuando el tercer decimal era igual o superior a 5, se aproximó al número siguiente, y cuando era menor a 5, se mantuvo el valor original. Esta decisión permitió evitar inconsistencias en la cantidad de decimales.  
+
+Como observación, para las tasas del año 2024, decidí revisar los datos directamente desde el PDF del INE de estadísticas vitales de ese año, esto por ser el dato más cercano a la actualidad. Además en el caso de la tasa bruta de natalidad utilicé principalmente, como ya dije, datos del Banco Mundial por su formato. Sin embargo, en algunos años se incorporaron datos de la fuente del INE (estadísticas vitales), con el fin de completar la serie y utilizar cifras más actualizadas. Esta desición metodológica responde a la disponibilidad de datos y no afecta a la interpretación final de las tendencias generales. 
 
 **Herramientas utilizadas** 
 
