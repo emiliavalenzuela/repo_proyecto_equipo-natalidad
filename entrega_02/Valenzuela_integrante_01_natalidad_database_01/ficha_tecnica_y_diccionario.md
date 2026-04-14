@@ -1,5 +1,5 @@
 
-## **Parte 3: Ficha técnica y diccionario**
+## ** Ficha técnica y diccionario**
 
 **Ficha técnica:**
 
@@ -28,6 +28,8 @@ Se trata de datos cuantitativos de carácter anual, que combinan valores enteros
 **Otras observaciones:** 
 
 La base es consistente y adecuada para identificar tendencias generales de la natalidad en Chile. Si bien se sacan de fuentes distintas (INE y Banco Mundial), ambas son fuentes confiables.  
+
+Para la tasa bruta de natalidad y la tasa global de fecunidad del año 2024, utlicé el documento del INE de estadísticas vitales, esto debido a que como era el año más cercano a la actualidad, preferí revisar directamente en el Instituto Nacional de Estadísticas. 
 
 **Diccionario de datos:** 
 ![alt text](image.png)
