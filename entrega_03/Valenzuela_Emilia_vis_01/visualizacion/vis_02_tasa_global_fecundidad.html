@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-6335a4b617f59f09b773df5402404134"}, "mark": {"type": "line", "point": true}, "encoding": {"tooltip": [{"field": "A\u00f1o", "title": "A\u00f1o", "type": "ordinal"}, {"field": "Tasa global Fecundidad", "format": ".2f", "title": "Tasa global de fecundidad", "type": "quantitative"}], "x": {"field": "A\u00f1o", "title": "A\u00f1o", "type": "ordinal"}, "y": {"field": "Tasa global Fecundidad", "title": "Tasa global de fecundidad", "type": "quantitative"}}, "height": 400, "params": [{"name": "param_2", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": "Evoluci\u00f3n de la tasa global de fecundidad en Chile, 1992-2024", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-6335a4b617f59f09b773df5402404134": [{"A\u00f1o": 1992, "Nacidos vivos": 294218, "Tasa global Fecundidad": 2.48, "Tasa bruta natalidad": 21.5}, {"A\u00f1o": 1993, "Nacidos vivos": 289419, "Tasa global Fecundidad": 2.43, "Tasa bruta natalidad": 20.8}, {"A\u00f1o": 1994, "Nacidos vivos": 285228, "Tasa global Fecundidad": 2.38, "Tasa bruta natalidad": 20.2}, {"A\u00f1o": 1995, "Nacidos vivos": 27576, "Tasa global Fecundidad": 2.35, "Tasa bruta natalidad": 19.2}, {"A\u00f1o": 1996, "Nacidos vivos": 272163, "Tasa global Fecundidad": 2.28, "Tasa bruta natalidad": 18.6}, {"A\u00f1o": 1997, "Nacidos vivos": 265493, "Tasa global Fecundidad": 2.2, "Tasa bruta natalidad": 17.9}, {"A\u00f1o": 1998, "Nacidos vivos": 261802, "Tasa global Fecundidad": 2.15, "Tasa bruta natalidad": 17.5}, {"A\u00f1o": 1999, "Nacidos vivos": 254096, "Tasa global Fecundidad": 2.07, "Tasa bruta natalidad": 16.7}, {"A\u00f1o": 2000, "Nacidos vivos": 252155, "Tasa global Fecundidad": 2.05, "Tasa bruta natalidad": 16.4}, {"A\u00f1o": 2001, "Nacidos vivos": 248651, "Tasa global Fecundidad": 2.01, "Tasa bruta natalidad": 16.0}, {"A\u00f1o": 2002, "Nacidos vivos": 241027, "Tasa global Fecundidad": 1.93, "Tasa bruta natalidad": 15.3}, {"A\u00f1o": 2003, "Nacidos vivos": 236223, "Tasa global Fecundidad": 1.89, "Tasa bruta natalidad": 14.8}, {"A\u00f1o": 2004, "Nacidos vivos": 232588, "Tasa global Fecundidad": 1.84, "Tasa bruta natalidad": 14.5}, {"A\u00f1o": 2005, "Nacidos vivos": 232092, "Tasa global Fecundidad": 1.83, "Tasa bruta natalidad": 14.3}, {"A\u00f1o": 2006, "Nacidos vivos": 233104, "Tasa global Fecundidad": 1.8, "Tasa bruta natalidad": 14.2}, {"A\u00f1o": 2007, "Nacidos vivos": 242054, "Tasa global Fecundidad": 1.83, "Tasa bruta natalidad": 14.6}, {"A\u00f1o": 2008, "Nacidos vivos": 248366, "Tasa global Fecundidad": 1.85, "Tasa bruta natalidad": 14.8}, {"A\u00f1o": 2009, "Nacidos vivos": 253574, "Tasa global Fecundidad": 1.86, "Tasa bruta natalidad": 15.0}, {"A\u00f1o": 2010, "Nacidos vivos": 251199, "Tasa global Fecundidad": 1.84, "Tasa bruta natalidad": 14.7}, {"A\u00f1o": 2011, "Nacidos vivos": 248879, "Tasa global Fecundidad": 1.82, "Tasa bruta natalidad": 14.4}, {"A\u00f1o": 2012, "Nacidos vivos": 243858, "Tasa global Fecundidad": 1.8, "Tasa bruta natalidad": 14.0}, {"A\u00f1o": 2013, "Nacidos vivos": 242862, "Tasa global Fecundidad": 1.79, "Tasa bruta natalidad": 13.8}, {"A\u00f1o": 2014, "Nacidos vivos": 252194, "Tasa global Fecundidad": 1.77, "Tasa bruta natalidad": 14.2}, {"A\u00f1o": 2015, "Nacidos vivos": 245406, "Tasa global Fecundidad": 1.74, "Tasa bruta natalidad": 13.6}, {"A\u00f1o": 2016, "Nacidos vivos": 232616, "Tasa global Fecundidad": 1.69, "Tasa bruta natalidad": 12.8}, {"A\u00f1o": 2017, "Nacidos vivos": 219494, "Tasa global Fecundidad": 1.56, "Tasa bruta natalidad": 11.9}, {"A\u00f1o": 2018, "Nacidos vivos": 222088, "Tasa global Fecundidad": 1.54, "Tasa bruta natalidad": 11.8}, {"A\u00f1o": 2019, "Nacidos vivos": 210413, "Tasa global Fecundidad": 1.43, "Tasa bruta natalidad": 11.0}, {"A\u00f1o": 2020, "Nacidos vivos": 195231, "Tasa global Fecundidad": 1.31, "Tasa bruta natalidad": 10.0}, {"A\u00f1o": 2021, "Nacidos vivos": 177273, "Tasa global Fecundidad": 1.18, "Tasa bruta natalidad": 9.0}, {"A\u00f1o": 2022, "Nacidos vivos": 189303, "Tasa global Fecundidad": 1.26, "Tasa bruta natalidad": 9.6}, {"A\u00f1o": 2023, "Nacidos vivos": 171992, "Tasa global Fecundidad": 1.17, "Tasa bruta natalidad": 8.7}, {"A\u00f1o": 2024, "Nacidos vivos": 154441, "Tasa global Fecundidad": 1.03, "Tasa bruta natalidad": 7.7}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
