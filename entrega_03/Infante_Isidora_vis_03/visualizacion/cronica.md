@@ -1,0 +1,17 @@
+**Crónica:** 
+
+En las últimas décadas, la natalidad en Chile ha experimentado una disminución sostenida. Sin embargo, esta tendencia no se ha manifestado de manera uniforme en todo el territorio. Al analizar los datos por región, aparecen diferencias que permiten entender que el fenómeno no solo implica una baja general de nacimientos, sino que también una transformación en la composición de la población que está teniendo hijos.  
+
+A partir del trabajo con la base de datos de nacimientos por región y año, se realizó una revisión inicial de las variables disponibles, incluyendo la cantidad de nacidos vivos, la tasa de natalidad y el porcentaje de madres extranjeras. Durante este proceso, se identificó que los años más recientes presentaban valores incompletos, por lo que el análisis se centró principalmente en el período hasta 2022, con el fin de asegurar una mayor consistencia en los datos.  
+
+En una primera etapa, se observaron los nacimientos y la tasa de natalidad en el tiempo, lo que permitió confirmar una caída general en ambos indicadores. No obstante, al desagregar la información por región, se evidenció que esta disminución no ocurre de la misma forma en todo el país. Algunas regiones mantienen tasas más altas que otras, lo que sugiere la existencia de dinámicas territoriales diferenciadas.  
+
+En este contexto, se incorporó la variable de nacionalidad de la madre para profundizar el análisis. Al calcular el promedio del porcentaje de madres extranjeras por región y ordenar los resultados, se identificó un patrón claro: las regiones del norte del país concentran los valores más altos. Tarapacá y Arica y Parinacota destacan de manera consistente, seguidas por la Región Metropolitana y Atacama.  
+
+La visualización presentada muestra este ranking de manera directa, permitiendo comparar las regiones según el promedio de madres extranjeras. El gráfico evidencia que la presencia de madres extranjeras no se distribuye de manera homogénea, sino que se concentra en ciertos territorios, particularmente en el norte. Este hallazgo es relevante, ya que estas zonas coinciden con áreas de mayor flujo migratorio, lo que sugiere una relación entre movilidad poblacional y composición de los nacimientos.  
+
+Sin embargo, los datos también muestran ciertas limitaciones. En algunas regiones aparecen valores iguales a cero en el porcentaje de madres extranjeras, lo que refleja una ausencia en la información. Esto obliga a interpretar los resultados con prudencia y a considerar la calidad de los registros disponibles.  
+
+En conjunto, el análisis permite sostener que la baja de la natalidad en Chile no puede entenderse únicamente como una disminución en el número de nacimientos. Más bien, se trata de un proceso más complejo, donde influyen factores territoriales y demográficos. La nacionalidad de la madre emerge como una dimensión clave para comprender estas diferencias, debido a que permite observar cómo cambia la composición de quienes están teniendo hijos en distintas regiones del país.  
+
+De esta manera, la visualización no solo muestra un ranking, sino que aporta a una lectura más amplia del fenómeno. La natalidad en Chile no solo está disminuyendo, sino que también se está reconfigurando en términos territoriales y sociales, lo que abre nuevas preguntas sobre el futuro demográfico del país.  
