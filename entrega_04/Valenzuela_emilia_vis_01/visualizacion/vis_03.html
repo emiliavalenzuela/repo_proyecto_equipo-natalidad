@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-1ea95311d8277f7f91ce9500c0d5bed7"}, "facet": {"column": {"field": "Indicador", "title": null, "type": "nominal"}}, "spec": {"layer": [{"mark": {"type": "bar"}, "encoding": {"color": {"field": "A\u00f1o", "scale": {"domain": [1992, 2024], "range": ["steelblue", "crimson"]}, "title": "A\u00f1o", "type": "ordinal"}, "tooltip": [{"field": "Indicador", "title": "Indicador", "type": "nominal"}, {"field": "A\u00f1o", "title": "A\u00f1o", "type": "ordinal"}, {"field": "Valor", "format": ",.2f", "title": "Valor", "type": "quantitative"}], "x": {"field": "A\u00f1o", "title": "A\u00f1o", "type": "ordinal"}, "y": {"field": "Valor", "title": "Valor", "type": "quantitative"}}}, {"mark": {"type": "text", "dy": -8, "fontSize": 11}, "encoding": {"color": {"field": "A\u00f1o", "scale": {"domain": [1992, 2024], "range": ["steelblue", "crimson"]}, "title": "A\u00f1o", "type": "ordinal"}, "text": {"field": "Valor", "format": ",.2f", "type": "quantitative"}, "tooltip": [{"field": "Indicador", "title": "Indicador", "type": "nominal"}, {"field": "A\u00f1o", "title": "A\u00f1o", "type": "ordinal"}, {"field": "Valor", "format": ",.2f", "title": "Valor", "type": "quantitative"}], "x": {"field": "A\u00f1o", "title": "A\u00f1o", "type": "ordinal"}, "y": {"field": "Valor", "title": "Valor", "type": "quantitative"}}}], "height": 300, "width": 220}, "resolve": {"scale": {"y": "independent"}}, "title": "Cambio de los principales indicadores de natalidad en Chile entre 1992 y 2024", "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-1ea95311d8277f7f91ce9500c0d5bed7": [{"A\u00f1o": 1992, "Indicador": "Nacidos vivos", "Valor": 294218.0}, {"A\u00f1o": 2024, "Indicador": "Nacidos vivos", "Valor": 154441.0}, {"A\u00f1o": 1992, "Indicador": "Hijos promedio por mujer", "Valor": 2.48}, {"A\u00f1o": 2024, "Indicador": "Hijos promedio por mujer", "Valor": 1.03}, {"A\u00f1o": 1992, "Indicador": "Nacidos por cada 1.000 habitantes", "Valor": 21.5}, {"A\u00f1o": 2024, "Indicador": "Nacidos por cada 1.000 habitantes", "Valor": 7.7}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
