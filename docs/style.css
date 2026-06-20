@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E7F1F7;
+    color: #2B2B2B;
+    line-height: 1.6;
+}
+
+.menu {
+    background-color: #0D3B4E;
+    padding: 18px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #BBD7E6;
+    padding: 120px 25px;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #0D3B4E;
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    color: #0D3B4E;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: 0 auto 30px auto;
+    font-size: 20px;
+}
+
+.volanta {
+    color: #6D8FA6;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.boton {
+    background-color: #0D3B4E;
+    color: white;
+    padding: 14px 35px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 25px;
+}
+
+.intro {
+    background-color: white;
+    margin-top: 60px;
+    border-radius: 15px
+}
+
+section h2 {
+    color: #0D3B4E;
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+section p {
+    font-size: 19px;
+}
+
+img {
+    width: 100%;
+    max-width: 850px;
+    display: block;
+    margin: 35px auto;
+    border-radius: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 520px;
+    border: none;
+    background-color: white;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+.lectura {
+    background-color: #F2E6D6;
+    padding: 25px;
+    border-left: 6px solid #0D3B4E;
+    margin: 35px auto;
+    max-width: 850px;
+}
+
+.metodologia {
+    background-color: white;
+    padding: 100px 35px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+}
+
+.metodologia h2 {
+    font-size: 55px;
+    text-align: center;
+}
+
+footer {
+    background-color: #0D3B4E;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer p {
+    margin: 8px;
+}
+
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    section h2 {
+        font-size: 30px;
+    }
+
+    iframe {
+        height: 400px;
+    }
+
+    .menu a {
+        display: block;
+        margin: 10px 0;
+    }
+}
