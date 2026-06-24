@@ -20,5 +20,5 @@ La historia final, se enfocó en mostrar que la baja natalidad no solo implica q
 
 **Tabla de autoría:** 
 
-![alt text](image.png)
+![alt text](image-1.png)
 
