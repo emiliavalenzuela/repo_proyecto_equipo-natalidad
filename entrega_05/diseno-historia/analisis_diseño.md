@@ -2,6 +2,7 @@
 
 
 **Diseño de información e interacción:**
+
 La estructura narrativa fue diseñada para guiar al usuario desde una comprensión general del fenómeno hacia dimensiones cada más específicas de la baja natalidad en Chile. La decisión responde a una lógica periodística y de visualización de datos: primero se presenta el problema en términos amplios y luego se profundiza en los factores que ayudan a explicarlo.
 
 El recorrido comienza con una portada introductoria que presenta el tema principal y sitúa al usuario frente a la pregunta central de la investigación. Posteriormente, se incorpora una introducción que contextualiza el fenómeno y plantea que la disminución de la natalidad no puede entenderse únicamente como una baja en la cantidad de nacimientos. De esta manera, se prepara al lector para interpretar los datos desde una perspectiva más amplia.
@@ -14,6 +15,7 @@ Además, la estructura fue diseñada considerando distintos niveles de interés 
 
 
 **Decisiones narrativas:**
+
 La redacción fue desarrollada con un estilo periodístico explicativo e interpretativo. El objetivo principal fue transformar información estadística compleja en una historia comprensible para una audiencia general, manteniendo el rigor de los datos sin sacrificar la claridad.
 
 Los textos no buscan repetir lo que muestran los gráficos, sino complementar su lectura. Cada sección introduce una idea principal, contextualiza la visualización y destaca los hallazgos más relevantes. Esta decisión permite que los gráficos actúen como evidencia y que el texto funcione como un mecanismo de interpretación. 
@@ -26,6 +28,7 @@ La decisión de utilizar la frase “Las nuevas formas de maternidad” como con
 
 
 **Decisiones visuales:**
+
 La identidad visual fue diseñada para reforzar el carácter informativo y reflexivo de la historia. Se utilizó una paleta de tonos azules claros y oscuros, debido a que estos colores suelen asociarse con confianza, estabilidad, información y análisis. Esta elección resulta coherente con una investigación basada en evidencia estadística y permite transmitir una sensación de seriedad sin generar una experiencia visual excesivamente fría. 
 
 Los colores secundarios fueron utilizados de manera estratégica para destacar información relevante, separar secciones y facilitar la navegación. Se evitó el uso de colores demasiado saturados o contrastes agresivos, con el objetivo de mantener la atención en las visualizaciones y favorecer una lectura prolongada. 
