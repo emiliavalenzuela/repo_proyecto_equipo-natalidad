@@ -26,22 +26,35 @@ body {
 }
 
 .hero {
-    background: linear-gradient(135deg, #BBD7E6, #E7F1F7);
-    padding: 90px 25px 70px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+    min-height: 90vh;
+
+    background: 
+    linear-gradient(
+    rgba(13,59,78,0.65),
+    rgba(13,59,78,0.65)
+    ),
+    url("guata-embarazada.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
 }
 
 .hero h1 {
-    color: #0D3B4E;
+    color: white;;
     font-size: 66px;
     margin-bottom: 10px;
     letter-spacing: -1px;
+    font-family: 'Playfair Display', serif;
 }
 
 .hero h2 {
-    color: #0D3B4E;
+    color: white;
     font-size: 30px;
     font-weight: 400;
     opacity: 0.85;
@@ -49,6 +62,7 @@ body {
 }
 
 .hero p {
+    color: white;
     max-width: 750px;
     margin: 0 auto 30px auto;
     font-size: 20px;
@@ -115,10 +129,15 @@ section p {
 
 img {
     width: 100%;
-    max-width: 850px;
+    max-width: 1000px;
     display: block;
-    margin: 35px auto;
-    border-radius: 10px;
+    margin: 50px auto;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
 }
 
 iframe {
@@ -131,11 +150,12 @@ iframe {
 }
 
 .lectura {
-    background-color: #F2E6D6;
+    background-color: rgba(242,230,214,0.7);
     padding: 25px;
-    border-left: 6px solid #0D3B4E;
-    margin: 35px auto;
+    border-radius: 20px;
+    margin: 50px auto;
     max-width: 850px;
+    position: relative;
 }
 
 .metodologia {
