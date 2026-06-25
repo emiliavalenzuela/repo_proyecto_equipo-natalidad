@@ -26,22 +26,26 @@ body {
 }
 
 .hero {
-    min-height: 90vh;
+    min-height: 100vh;
 
     background: 
     linear-gradient(
     rgba(13,59,78,0.65),
     rgba(13,59,78,0.65)
     ),
-    url("guata-embarazada.jpg");
+    url("docs/img/guata-embarazada.jpg");
 
     background-size: cover;
     background-position: center;
 
     display:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
+
     text-align:center;
+
+    padding: 40px;
 
 }
 
@@ -51,6 +55,7 @@ body {
     margin-bottom: 10px;
     letter-spacing: -1px;
     font-family: 'Playfair Display', serif;
+    animation: aparecer 1.2s ease;
 }
 
 .hero h2 {
@@ -211,4 +216,17 @@ section:nth-child(even) {
 
 section:nth-child(odd) {
     background-color: #E7F1F7;
+}
+
+@keyframes aparecer {
+
+    from {
+        opacity:0;
+        transform:translateY(40px);
+    }
+
+    to {
+        opacity:1;
+        transform:translateY(0);
+    }
 }
