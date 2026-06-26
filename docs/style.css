@@ -29,11 +29,8 @@ body {
     min-height: 100vh;
 
     background: 
-    linear-gradient(
-    rgba(13,59,78,0.65),
-    rgba(13,59,78,0.65)
-    ),
-    url("docs/img/guata-embarazada.jpg");
+        linear-gradient(rgba(13,59,78,0.62), rgba(13,59,78,0.55)),
+        url("img/guata-embarazada.jpg");
 
     background-size: cover;
     background-position: center;
@@ -44,8 +41,8 @@ body {
     align-items:center;
 
     text-align:center;
-
-    padding: 40px;
+    padding: 80px 40px;
+    position:relative;
 
 }
 
@@ -210,13 +207,6 @@ footer p {
     }
 }
 
-section:nth-child(even) {
-    background-color: white;
-}
-
-section:nth-child(odd) {
-    background-color: #E7F1F7;
-}
 
 @keyframes aparecer {
 
@@ -229,4 +219,79 @@ section:nth-child(odd) {
         opacity:1;
         transform:translateY(0);
     }
+}
+
+.logo-portada {
+    width: 160px;
+    margin-bottom: 25px;
+    border-radius: 0;
+}
+
+.intro,
+.metodologia,
+section {
+    border-radius: 24px;
+}
+
+section {
+    background-color: rgba(255,255,255,0.78);
+    box-shadow: 0 12px 35px rgba(13,59,78,0.08);
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.lectura {
+    background-color: #F2E6D6;
+    border-left: 8px solid #6D8FA6;
+    box-shadow: 0 8px 20px rgba(13,59,78,0.08);
+}
+
+.dato-destacado {
+    background-color: #0D3B4E;
+    color: white;
+    padding: 45px;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 80px auto;
+    max-width: 850px;
+}
+
+.sabias-que {
+    background-color: #BBD7E6;
+    border-radius: 24px;
+    padding: 35px;
+    margin: 60px auto;
+    max-width: 850px;
+    border: 2px solid #6D8FA6;
+}
+
+.sabias-que h3 {
+    color: #0D3B4E;
+    font-size: 26px;
+    margin-top: 0;
+}
+
+.imagen-apoyo {
+    max-width: 720px;
+    border-radius: 28px;
+    box-shadow: 0 18px 35px rgba(13,59,78,0.15);
+}
+
+img,
+iframe {
+    box-shadow: 0 14px 30px rgba(13,59,78,0.12);
+    background-color: white;
+}
+
+.aparece {
+    opacity: 0;
+    transform: translateY(35px);
+    transition: all 0.8s ease;
+}
+
+.aparece.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
