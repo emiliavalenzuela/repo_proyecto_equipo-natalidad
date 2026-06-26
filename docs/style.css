@@ -295,3 +295,48 @@ iframe {
     opacity: 1;
     transform: translateY(0);
 }
+
+.hero::after {
+    content: "↓";
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    font-size: 34px;
+    animation: bajar 1.5s infinite;
+}
+
+@keyframes bajar {
+    0% { transform: translateY(0); opacity: 0.6; }
+    50% { transform: translateY(10px); opacity: 1; }
+    100% { transform: translateY(0); opacity: 0.6; }
+}
+
+.hero-contenido {
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 28px;
+    background-color: rgba(13, 59, 78, 0.18);
+}
+
+.bajada {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.destacado {
+    background-color: #F2E6D6;
+    border-left: 8px solid #6D8FA6;
+    padding: 25px;
+    border-radius: 18px;
+    font-weight: 600;
+}
+
+.separador-visual img {
+    max-height: 520px;
+    object-fit: cover;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease;
+}
