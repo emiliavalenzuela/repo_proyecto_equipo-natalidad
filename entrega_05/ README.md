@@ -12,6 +12,8 @@ A partir del análisis de datos provenientes del Instituto Nacional de Estadíst
 
 Por ello, se analizaron distintos indicadores demográficos, entre ellos la evolución de los nacidos vivos, la tasa global de fecundidad, la fecundidad adolescente, las diferencias regionales en la natalidad y la nacionalidad de la madre. El conjunto de estos elementos permitió construir una mirada más amplia sobre el fenómeno, entendiendo la baja natalidad como una expresión de cambios profundos en la sociedad chilena. 
 
+Asimismo, el reportaje incorpora el contexto del debate público que actualmente existe en torno a la baja natalidad en el país. A partir de la presentación del Plan Chile Renace y de la creciente preocupación de las instituciones por este fenómeno, la investigación busca vincular la evidencia obtenida mediante el análisis de datos con las discusiones que hoy forman parte de la agenda pública. De esta manera, las visualizaciones no solo permiten describir una tendencia demográfica, sino también comprender por qué la disminución de la natalidad representa un desafío para las políticas públicas, el envejecimiento de la población, los sistemas de cuidados y la planificación del desarrollo futuro del país.  
+
 La historia final propone que Chile no solo está experimentando una disminución de nacimientos, sino también una transformación de las formas de maternidad, la reducción de la maternidad adolescente, la disminución del promedio de hijos por mujer y las diferencias observadas entre regiones, muestran que los cambios demográficos están estrechamente relacionados con transformaciones culturales, económicas y sociales, ocurridas durante las últimas décadas. 
 
 **Hipótesis inicial:**
