@@ -138,10 +138,6 @@ img {
     transition: transform 0.4s ease;
 }
 
-img:hover {
-    transform: scale(1.03);
-}
-
 iframe {
     width: 100%;
     height: 520px;
@@ -339,4 +335,103 @@ iframe {
 section:hover {
     transform: translateY(-3px);
     transition: 0.3s ease;
+}
+
+.barra-progreso {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-color: #F2E6D6;
+    width: 0%;
+    z-index: 2000;
+}
+
+.logo-hero {
+    width: 130px;
+    max-width: 130px;
+    margin: 0 auto 25px auto;
+    border-radius: 50%;
+    box-shadow: none;
+    background: transparent;
+}
+
+.hero-contenido {
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255,255,255,0.25);
+}
+
+section {
+    position: relative;
+}
+
+section h2 {
+    font-size: 44px;
+    line-height: 1.15;
+}
+
+.lectura {
+    font-size: 21px;
+    line-height: 1.7;
+}
+
+.separador-visual {
+    max-width: 900px;
+    margin: 30px auto 10px auto;
+    padding: 0 25px;
+}
+
+.separador-visual img {
+    width: 70%;
+    max-height: 360px;
+    object-fit: cover;
+    border-radius: 28px;
+    box-shadow: 0 15px 35px rgba(13,59,78,0.14);
+}
+
+.separador-visual:nth-of-type(even) img {
+    margin-left: 0;
+}
+
+.separador-visual:nth-of-type(odd) img {
+    margin-right: 0;
+}
+
+.destacado {
+    font-size: 21px;
+}
+
+.bloque-conflicto {
+    background-color: #0D3B4E;
+    color: white;
+    padding: 50px;
+    border-radius: 28px;
+    max-width: 850px;
+    margin: 80px auto;
+    box-shadow: 0 16px 35px rgba(13,59,78,0.2);
+}
+
+.bloque-conflicto h3 {
+    font-size: 32px;
+    margin-top: 0;
+    color: white;
+}
+
+.bloque-conflicto p {
+    font-size: 22px;
+}
+
+@media (max-width: 700px) {
+    .separador-visual img {
+        width: 100%;
+    }
+
+    section h2 {
+        font-size: 34px;
+    }
+
+    .logo-hero {
+        width: 100px;
+        max-width: 100px;
+    }
 }

@@ -16,3 +16,11 @@ window.addEventListener("scroll", function() {
 });
 
 window.dispatchEvent(new Event("scroll"));
+
+window.addEventListener("scroll", function() {
+    const scrollTotal = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollActual = window.scrollY;
+    const porcentaje = (scrollActual / scrollTotal) * 100;
+
+    document.getElementById("barraProgreso").style.width = porcentaje + "%";
+});
