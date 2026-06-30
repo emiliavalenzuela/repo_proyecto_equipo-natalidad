@@ -518,15 +518,25 @@ section h2 {
 }
 
 .hero {
+    min-height: 100vh;
     padding-top: 120px;
+
+    background:
+        linear-gradient(rgba(13,59,78,0.70), rgba(13,59,78,0.58)),
+        url("img/guata-embarazada.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .hero-contenido {
     max-width: 850px;
-    padding: 55px 45px;
-    background-color: rgba(13,59,78,0.36);
-    backdrop-filter: blur(4px);
-    border: 1px solid rgba(255,255,255,0.25);
+    padding: 60px 50px;
+    background-color: rgba(13,59,78,0.26);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.20);
+    border-radius: 30px;
 }
 
 .logo-hero {
@@ -575,4 +585,41 @@ section h2 {
 .boton-secundario:hover {
     transform: translateY(-3px);
     background-color: white;
+}
+
+.territorio{
+
+    text-align:center;
+
+}
+
+.territorio h2{
+
+    max-width:850px;
+    margin:auto;
+    margin-bottom:20px;
+
+}
+
+.intro-territorio{
+
+    max-width:760px;
+    margin:0 auto 45px auto;
+    font-size:20px;
+    line-height:1.7;
+
+}
+
+.imagen-territorio{
+
+    width:100%;
+    max-width:1100px;
+
+    display:block;
+    margin:auto;
+
+    border-radius:25px;
+
+    box-shadow:0 18px 35px rgba(13,59,78,.15);
+
 }
