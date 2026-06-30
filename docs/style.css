@@ -341,10 +341,10 @@ section:hover {
     position: fixed;
     top: 0;
     left: 0;
-    height: 5px;
+    height: 6px;
     background-color: #F2E6D6;
     width: 0%;
-    z-index: 2000;
+    z-index: 3000;
 }
 
 .logo-hero {
