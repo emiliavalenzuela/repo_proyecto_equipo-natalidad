@@ -495,3 +495,84 @@ section h2 {
         font-size: 24px;
     }
 }
+
+.menu {
+    width: 90%;
+    max-width: 1050px;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    justify-content: space-between;
+    background-color: rgba(13,59,78,0.88);
+    backdrop-filter: blur(6px);
+}
+
+.logo-menu {
+    width: 42px;
+    height: 42px;
+    margin: 0;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+.hero {
+    padding-top: 120px;
+}
+
+.hero-contenido {
+    max-width: 850px;
+    padding: 55px 45px;
+    background-color: rgba(13,59,78,0.36);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255,255,255,0.25);
+}
+
+.logo-hero {
+    width: 115px;
+    max-width: 115px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    box-shadow: none;
+    background-color: white;
+    padding: 8px;
+}
+
+.hero h1 {
+    font-size: 78px;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 34px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-family: 'Source Sans 3', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.botones-hero {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.boton-secundario {
+    background-color: rgba(255,255,255,0.85);
+    color: #0D3B4E;
+    padding: 14px 35px;
+    text-decoration: none;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.boton-secundario:hover {
+    transform: translateY(-3px);
+    background-color: white;
+}
