@@ -623,3 +623,19 @@ section h2 {
     box-shadow:0 18px 35px rgba(13,59,78,.15);
 
 }
+
+figure {
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+figure img {
+    margin-bottom: 8px;
+}
+
+figcaption {
+    font-size: 13px;
+    color: #6D8FA6;
+    text-align: right;
+    font-style: italic;
+}
