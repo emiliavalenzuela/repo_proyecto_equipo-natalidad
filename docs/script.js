@@ -1,4 +1,6 @@
-const elementos = document.querySelectorAll("section, .lectura, .dato-destacado, .sabias-que");
+const elementos = document.querySelectorAll(
+    "section, .lectura, .dato-destacado, .sabias-que, .infografia, figure"
+);
 
 elementos.forEach(function(elemento) {
     elemento.classList.add("aparece");
