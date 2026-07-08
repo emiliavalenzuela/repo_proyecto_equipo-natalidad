@@ -639,3 +639,12 @@ figcaption {
     text-align: right;
     font-style: italic;
 }
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #BBD7E6;
+}
